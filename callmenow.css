@@ -1,0 +1,69 @@
+#callmenow_widget {
+}
+#callmenow_widget div#callmenow_content {
+	text-align				: center;
+	background				: #ECECEC;
+	padding					: 6px;
+	-webkit-border-radius	: 8px;
+	-moz-border-radius		: 8px;
+	border-radius			: 8px;
+}
+#callmenow_widget span#callmenow_description {
+	font-size				: 14px;
+	color					: #666;
+}
+#callmenow_widget div#callmenow_error {
+	display					: none;
+	color					: #F00;
+	font-weight				: bold;
+	font-size				: 12px;
+}
+#callmenow_widget div#callmenow_loader {
+	display					: none;
+}
+#callmenow_widget input#callmenow_phone {
+	background				: #FFFFFF url("phone.png") no-repeat 5px 6px;
+	border					: 1px solid #DDD;
+	padding					: 4px;
+	padding-left			: 28px;
+	min-height				: 34px;
+	margin-top				: 12px;
+	width					: 120px;
+	-webkit-border-radius	: 2px;
+	-moz-border-radius		: 2px;
+	border-radius			: 2px;
+	-moz-box-shadow			: inset 0 1px 1px rgba(0,0,0,0.1);
+	-webkit-box-shadow		: inset 0 1px 1px rgba(0,0,0,0.1);
+	box-shadow				: inset 0 1px 1px rgba(0,0,0,0.1);
+	color					: #888;
+}
+#callmenow_widget input#callmenow_phone:focus {
+	color					: #000;
+}
+#callmenow_widget input#callmenow_submit {
+	width					: 120px;
+	border					: none;
+	color					: #FFF;
+	font-weight				: bold;
+	font-size				: 16px;
+	padding					: 4px;
+	cursor					: pointer;
+	margin					: 8px 0 0;
+	-webkit-border-radius	: 4px;
+	-moz-border-radius		: 4px;
+	border-radius			: 4px;
+	background				: #ffb76b; /* Old browsers */
+	background				: -moz-linear-gradient(top,  #ffb76b 0%, #ff7f04 100%); /* FF3.6+ */
+	background				: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb76b), color-stop(100%,#ff7f04)); /* Chrome,Safari4+ */
+	background				: -webkit-linear-gradient(top,  #ffb76b 0%,#ff7f04 100%); /* Chrome10+,Safari5.1+ */
+	background				: -o-linear-gradient(top,  #ffb76b 0%,#ff7f04 100%); /* Opera 11.10+ */
+	background				: -ms-linear-gradient(top,  #ffb76b 0%,#ff7f04 100%); /* IE10+ */
+	background				: linear-gradient(top,  #ffb76b 0%,#ff7f04 100%); /* W3C */
+	filter					: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=0 ); /* IE6-9 */
+}
+#callmenow_widget input#callmenow_submit:hover {
+	opacity					: 0.7;
+	filter					: alpha(opacity=70);
+	-moz-opacity			: 0.7;
+	-khtml-opacity			: 0.7;
+}

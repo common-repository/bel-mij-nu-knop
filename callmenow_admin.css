@@ -1,0 +1,56 @@
+.pointer {
+	cursor					: pointer;
+}
+.cursor {
+	cursor					: default;
+}
+.alignmiddle {
+	vertical-align			: middle;
+}
+.displayinline {
+	display					: inline-block;
+}
+div#openingstijden {
+}
+div#openingstijden_loader, div#openingstijden_message {
+	display					: none;
+}
+div#openingstijden div.days {
+	border					: 1px solid #CCC;
+	display					: inline-block;
+}
+div#openingstijden div.days span.day {
+	text-transform			: uppercase;
+	font-weight				: bold;
+	width					: 60px;
+	height					: 30px;
+	line-height				: 30px;
+	padding					: 0px;
+	margin					: 0px;
+	display					: inline-block;
+	text-align				: center;
+	/* http://www.colorzilla.com/gradient-editor/ */
+	background				: #f0f0f0; /* Old browsers */
+	background				: -moz-linear-gradient(top,  #f0f0f0 0%, #dcdcdc 100%); /* FF3.6+ */
+	background				: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0f0f0), color-stop(100%,#dcdcdc)); /* Chrome,Safari4+ */
+	background				: -webkit-linear-gradient(top,  #f0f0f0 0%,#dcdcdc 100%); /* Chrome10+,Safari5.1+ */
+	background				: -o-linear-gradient(top,  #f0f0f0 0%,#dcdcdc 100%); /* Opera 11.10+ */
+	background				: -ms-linear-gradient(top,  #f0f0f0 0%,#dcdcdc 100%); /* IE10+ */
+	background				: linear-gradient(top,  #f0f0f0 0%,#dcdcdc 100%); /* W3C */
+	filter					: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#dcdcdc',GradientType=0 ); /* IE6-9 */
+}
+div#openingstijden div.days span.notselected {
+	background				: #666;
+	color					: #FFF;
+}
+div#openingstijden div.days span.day.small {
+	width					: 30px;
+}
+div#openingstijden div#add {
+	background-color		: #ECECEC;
+	display					: inline-block;
+	padding					: 12px;
+	-webkit-border-radius	: 8px;
+	-moz-border-radius		: 8px;
+	border-radius			: 8px;
+}
